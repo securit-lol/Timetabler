@@ -1,6 +1,6 @@
 # Timetabler
 
-An automatic schedule builder for teachers, built with C++ and Dear ImGui.
+An automatic schedule builder for teachers.
 
 The app takes teachers and their preferences as input: subject, class and weekly hours, plus desired time slots (days and hour ranges). Based on this data it automatically places lessons on a weekly grid, respecting teacher and class occupancy, daily lesson limits, disabled days and the current school day.
 
