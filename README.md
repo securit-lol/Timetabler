@@ -13,7 +13,6 @@ When a lesson doesn't fit into the slot a teacher asked for, the conflicts panel
 
 ## Ubuntu dependencies
 
-For ImGui with GLFW backend the following packages must be installed
-```
-libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev freeglut3-dev
-```
+ImGui with the GLFW backend needs these packages:
+
+    sudo apt install libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev freeglut3-dev
