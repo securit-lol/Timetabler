@@ -1,10 +1,10 @@
 # Timetabler
 
-An automatic schedule builder for teachers.
+Program that builds a weekly schedule for teachers.
 
-The app takes teachers and their preferences as input: subject, class and weekly hours, plus desired time slots (days and hour ranges). Based on this data it automatically places lessons on a weekly grid, respecting teacher and class occupancy, daily lesson limits, disabled days and the current school day.
+For each teacher you enter the subject, class, weekly hours and the days and hours when they want to teach. Timetabler puts the lessons on a weekly grid. It keeps teachers and classes from overlapping, caps the number of lessons per day and skips disabled days.
 
-If a lesson cannot be placed into a desired slot, the program shows the reason in the conflicts panel. The result can still be edited by hand - drag & drop moves lessons, while the right-click menu locks, unlocks or cancels them.
+When a lesson doesn't fit into the slot a teacher asked for, the conflicts panel says why. You can fix the result by hand: drag a lesson to move it, right-click to lock, unlock or cancel it.
 
 ## Screenshots
 
@@ -17,8 +17,3 @@ For ImGui with GLFW backend the following packages must be installed
 ```
 libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev freeglut3-dev
 ```
-
-## Credits
-
-- Dear ImGui
-- GLFW
